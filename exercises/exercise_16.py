@@ -6,6 +6,5 @@ if num > 6:
 string = ''
 for i in range(1, num+1):
     count -= 1
-    string = ' ' * count + '#' * i
-    
+    string = ' ' * count + '#' * i   
     print(string)
